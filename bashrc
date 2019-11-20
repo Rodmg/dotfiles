@@ -23,5 +23,15 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# git aliases
+alias gplo='git pull origin'
+alias gpso='gut push origin'
+alias gco='git checkout'
+alias gbr='git branch'
+alias gci='git commit -m'
+alias gst='git status'
+alias gunstage='git reset HEAD --'
+alias greset='git reset --hard HEAD'
+
 # Git bash completion
 source ~/dotfiles/git-completion.bash
