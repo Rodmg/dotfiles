@@ -25,7 +25,9 @@ alias l='ls -CF'
 
 # git aliases
 alias gplo='git pull origin'
+alias gploc='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpso='git push origin'
+alias gpsoc='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gco='git checkout'
 alias gbr='git branch'
 alias gci='git commit -m'
